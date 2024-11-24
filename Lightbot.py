@@ -5,7 +5,8 @@
 
 
 def lightbot(move_list):
-    
+    global grid
+
     #   ^ move fw
     #   @ sw light
     #   < turn l
@@ -55,5 +56,5 @@ def lightbot(move_list):
             pass
         
 
-moves = "^^^@^^<^^@^>^@>^^@***"
+moves = ""
 lightbot(moves)
